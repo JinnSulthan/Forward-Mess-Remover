@@ -1,0 +1,18 @@
+{
+    "name": "Forward-Mess-Remover",
+    "description": "A Telegram botwritten in python using pyrogram",
+    "repository": "https://github.com/SpamShield/Forward-Mess-Remover",
+    "keywords": ["telegram", "service", "forwarded","message", "cleaner"],
+    "env": {
+        "BOT_TOKEN": {
+            "description": "Your Telegram Bot Token From @Botfather"
+        },
+        "API_ID": {
+            "description": "Your API_ID from https://my.telegram.org/"
+        },
+        "API_HASH": {
+            "description": "Your API_HASH from https://my.telegram.org/"
+        }
+    },
+    "buildpacks": [{"url": "heroku/python"}]
+}
